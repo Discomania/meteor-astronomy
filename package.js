@@ -21,7 +21,8 @@ Package.onUse(function(api) {
       "check",
       "minimongo",
       "ejson",
-      "mdg:validation-error@0.5.1"
+      "mdg:validation-error@0.5.1",
+	  "ostrio:files"
     ],
     ["client", "server"]
   );
